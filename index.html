@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Number Guess Project</title>
+  </head>
+  <body>
+    <div class="container pt-5">
+      <div class="main">
+        <h1>Number Guess</h1>
+        <p>
+          Guess a number under <span class="min"></span> to
+          <span class="max">10</span>
+        </p>
+        <form class="d-flex align-items-center">
+          <input type="number" name="guess-number" id="guess-number" />
+          <input
+            class="btn guess-btn bg-primary"
+            type="submit"
+            value="Guess Number"
+          />
+        </form>
+        <p class="message"></p>
+      </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
